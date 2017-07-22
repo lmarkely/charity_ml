@@ -124,6 +124,7 @@ def feature_plot(importances, X_train, y_train):
     # Display the five most important features
     indices = np.argsort(importances)[::-1]
     columns = X_train.columns.values[indices[:5]]
+    print(columns)
     values = importances[indices][:5]
 
     # Creat the plot
@@ -137,7 +138,7 @@ def feature_plot(importances, X_train, y_train):
     pl.xlim((-0.5, 4.5))
     pl.ylabel("Weight", fontsize = 12)
     pl.xlabel("Feature", fontsize = 12)
-
-    pl.legend(loc = 'upper center')
+    fig.autofmt_xdate(bottom=0.2, rotation=30, ha='right')
+    pl.legend(loc = 'upper left')
     pl.tight_layout()
     pl.show()
