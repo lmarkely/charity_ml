@@ -2,6 +2,10 @@
 # Supervised Learning
 ## Project: Finding Donors for CharityML
 
+This project is part of Udacity Machine Learning Engineer Nanodegree. The
+followings are project instructions and guidelines. The project report is
+provided in `finding_donors.ipynb` or `finding_donors.html`.
+
 ### Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
@@ -13,7 +17,7 @@ This project requires **Python 2.7** and the following Python libraries installe
 
 You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
 
 ### Code
 
